@@ -1,0 +1,31 @@
+body {
+background-color: rgb(128, 29, 29);
+color: black;
+font-family:"Shojumaru", system-ui;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family:"Shojumaru", system-ui;
+}
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+ main {
+    text-align: conter;
+    max-width: 90%;
+ }
+
+ img {
+    max-width: 90%;
+ }
